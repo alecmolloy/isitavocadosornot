@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Is It Avocados or Not? Dot Com</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<meta property="og:url"             content="http://isitavocadosornot.com" />
+		<meta property="og:title"           content="Is it Avocados or Not?" />
+		<meta property="og:image"           content="http://isitavocadosornot.com/og.png" />
+		<meta property="og:site_name"		content="Is it Avocados or Not?"/>
+		<meta property="og:type" 			content="website"/>
+		<meta property="og:description" 	content="Test your'e avocados or not skill! Are you sure it is Avocados, or is Not? Play today!"/>
+
+		<script src="https://www.google.com/jsapi"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/prefixfree.min.js"></script>
+		<script type="text/javascript" src="//use.typekit.net/hjc3loo.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<link rel="icon" type="image/png" href="favicon.png">
+
+	</head>
+	<body>
+		<h1 class="blur0">Is it Avocados or not?</h1>
+		<div id=imgbox>
+			<img id="test_img" class="blur0" src="" title="whoale point of gaem is to guess ya dummey. no answer here." alt="whoale point of gaem is to guess ya dummey. no answer here.">
+		</div>
+		<div id="buttons" class="blur0 cf">
+			<button id="avocados" onclick="av_answer('avocados')">It is avocados</button>
+			<button id="not" onclick="av_answer('not')">It not avocados</button>
+		</div>
+		<p id="caption"><a href="about.html">about</a> | <a href="http://thenounproject.com/noun/avocado/#icon-No24365" target="_blank">Avocado</a> designed by <a href="http://thenounproject.com/guiez" target="_blank">Guilherme Zamarioli</a> from The Noun Project</p>
+		<div id="failure">
+			<div id="backdrop">
+				<div id="fail_text">
+					<div id="correctbox">
+						<p>no, correct answer was:</p>
+						<p id="av_correct_answer">Avocado’s</p>
+						<p id="thank_you">Thank you for help to improve our Avocado detector compute algorithm. Youre making the web a safer place to be for everyone. <a href="/">Click here to restart</a>.</p>
+					</div>
+					<div id="infobox">
+						<div id="streakbox"><img src="img/avocado.svg" alt="avocado points"> <span id="streak">0</span></div>
+						<div id="sharebox">
+							<a id="twitter" href="" target="_blank"><img src="img/twitter-bird-dark-bgs.svg" alt="Twitter logo"><br>tweet score</a>
+							<a id="facebook" href="#" target="_blank" onclick="
+																			   window.open(
+																			   'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+																			   'facebook-share-dialog',
+																			   'width=626,height=436');
+																			   return false;">
+								<img src="img/FB-fLogo-online-broadcast.svg" alt="Facebook logo"><br>share score</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/game.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+								})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-45017203-1', 'isitavocadosornot.com');
+		ga('send', 'pageview');
+
+	</script>
+</html>
