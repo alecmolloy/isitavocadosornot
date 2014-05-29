@@ -14,24 +14,24 @@ var av_avocado_images = { //names of the avocado .jpgs
 	'avocado0': 'http://25.media.tumblr.com/8d42269baf4ea9626b7041aae7dcdae0/tumblr_mltoi5MFC01r1vzzeo1_500.jpg',
 	'avocado1': '../img/avocado1.jpg',
 	'avocado2': 'http://www.tropicalfloridagardens.com/wp-content/uploads/2011/06/avocado-tree.jpg',
-	'avocado3': '../images/avocado1.jpg',
+	'avocado3': '../img/avocado1.jpg',
 	'avocado4': 'https://lh5.googleusercontent.com/-JamfMFjEfwc/T6tmd86WO3I/AAAAAAABzLc/9EUbyDmUfT4/s800/avocado-egg-cups-9.jpg',
 	'avocado5': 'http://cookingstoned.tv/wp-content/uploads/2013/02/Avocado-Fried-Egg-790x570.jpg',
 	'avocado6': 'http://feastsandfotos.files.wordpress.com/2008/08/avocado-slices-fix.jpg',
 	'avocado7': 'http://www.acozykitchen.com/wp-content/uploads/2011/02/Avocado-Fries-4.jpg',
 	'avocado8': 'http://img4-3.myrecipes.timeinc.net/i/may1/avocado-x.jpg',
 	'avocado9': 'http://4.bp.blogspot.com/_KqgyI425p8Y/S9TOqGM9UFI/AAAAAAAABcY/Z9x9FNhbpUs/s400/DSC_0981.JPG',
-	'avocado10': '../images/avocado1.jpg',
+	'avocado10': '../img/avocado1.jpg',
 	'avocado11': 'http://www.austinchronicle.com/binary/40a7/food_feature3-1.jpg',
 	'avocado12': 'http://www.monsterpiggybank.com/wp-content/uploads/2012/10/Avocado-Seed-out-of-water.jpg',
 	'avocado13': 'http://homecookingmemories.com/wp-content/uploads/2013/03/Mash-Up-Avocado-for-Deviled-Eggs.jpg',
-	'avocado14': '../images/avocado1.jpg',
+	'avocado14': '../img/avocado1.jpg',
 	'avocado15': 'http://thefoodaddicts.com/wp-content/uploads/2010/05/salmon_avocado01.jpg',
 	'avocado16': 'http://www.swiss-miss.com/wp-content/uploads/2013/06/20130313-247951-sunday-brunch-eggs-baked-avocado-480x360.jpg',
 	'avocado17': 'http://thefoodaddicts.com/wp-content/uploads/2010/05/salmon_avocado06.jpg',
-	'avocado18': '../images/avocado1.jpg',
+	'avocado18': '../img/avocado1.jpg',
 	'avocado19': 'http://www.mnn.com/sites/default/files/Avocado_main_0511.jpg',
-	'avocado20': '../images/avocado1.jpg'
+	'avocado20': '../img/avocado1.jpg'
 };
 
 var av_not_images = {
